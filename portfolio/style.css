@@ -1,0 +1,221 @@
+body {
+    display: flex;
+    flex-direction: column;
+    background-color: #000;
+}
+
+.fab {
+    margin: 3px 10px 3px 10px;
+}
+    
+header {
+    width: 100%;
+    height: 100px;
+}
+    
+nav {
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+}
+
+.me {
+    width: 100px;
+}
+    
+.nav-list {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-end;
+    list-style-type: none;
+    font-size: 25px;
+    color: gold;
+}
+
+hr {
+    max-height: 30px;
+    color: gold;
+}
+
+li {
+    margin: 15px 5px;
+    color: gold;
+    text-decoration: none;
+}
+
+a {
+    color: gold;
+    text-decoration: none;
+}
+
+a:hover {
+    color: red;
+}
+
+a:active {
+    color: purple;
+}
+    
+.hero {
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+}
+
+.hero-info {
+    max-width: 300px;
+    max-height: 500px;
+    margin: 30px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.name {
+    font-size: 30px;
+    color: gold;
+}
+
+.styled-break {
+    width: 100px;
+    height: 5px;
+    margin: 20px 0;
+}
+
+.p-one {
+    color: gold;
+}
+    
+.buttong {
+    border: 0;
+    padding: 10px 20px;
+    font-size: 20px;
+    background-color: gold;
+    width: 100px;
+    border-radius: 20px;
+    color: rgb(0, 0, 0);
+    text-transform: uppercase;
+    font-size: 15px;
+    text-align: center;
+}
+
+.buttong:hover {
+    background-color: yellow;
+}
+
+.buttong:active {
+    box-shadow: inset -2px -2px 3px rgba(255, 255, 255, 0.6);
+}
+
+.buttonb {
+    border: 0;
+    padding: 10px 20px;
+    font-size: 20px;
+    background-color: black;
+    width: 100px;
+    border-radius: 20px;
+    color: gold;
+    text-transform: uppercase;
+    font-size: 15px;
+    text-align: center;
+}
+
+.buttonb:hover {
+    background-color: grey;
+}
+
+.buttonb:active {
+    box-shadow: inset -2px -2px 3px rgba(255, 255, 255, 0.6);
+}
+
+.work-pic {
+    max-width: 500px;
+    max-height: 500px;
+    margin: 30px;
+}
+
+section {
+    width: 100%;
+    background-color: gold;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    padding: 40px 0 0 0;
+}
+
+.about-me {
+    max-width: 500px;
+    margin: 5px;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.info {
+    font-size: 20px;
+    color: black;
+    max-width: 600px;
+    margin: 30px;
+}
+
+.color-b {
+    color: black;
+}
+
+.bear {
+    width: 50%;
+    border-radius: 40px;
+}
+    
+#main {
+    box-shadow: 2px 2px 5px grey;
+}
+    
+.ul {
+    line-height: 180%;
+    list-style-type: square;
+    display: flex;
+    flex-direction: row;
+}
+
+li {
+    margin: 15px;
+}
+    
+.test {
+    width: 30px;
+    height: 30px;
+    background-color: red;
+    margin: 30px;
+}
+
+form {
+    margin: 0 0 40px 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.input-section {
+    margin: 10px 10px;
+    display: flex;
+}
+
+.input-group {
+    display: flex;
+    flex-direction: column;
+    margin: 0 10px 0 0;
+}
+
+.radio {
+    margin: 0 5px;
+    display: flex;
+    justify-content: center;
+}
+
+footer {
+    display: flex;
+    justify-content: center;
+}
+
